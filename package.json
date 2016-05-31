@@ -1,0 +1,44 @@
+{
+  "name": "cb-robot",
+  "version": "0.0.6",
+  "description": "Command line interface",
+  "main": "./bin/cmd.js",
+  "preferGlobal": true,
+  "bin": {
+    "ryan": "./bin/cmd.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "optimist": "0.6.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [
+    "cb-robot",
+    "cli"
+  ],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+  "engine": {
+    "node": ">=0.8"
+  }
+}
